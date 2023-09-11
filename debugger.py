@@ -41,7 +41,7 @@ def report(students):
     avg = sum(grades) / len(grades)
     highest = max(grades)
     lowest = min(grades)
-    print(f"The average grade is {avg}, with highest score {highest} and lowest score {lowest}")
+    print(f"The average grade is {avg}, with highest score {highest} and lowest score {lowest}, full mark is 100 points")
 
 
 if __name__ == "__main__":
